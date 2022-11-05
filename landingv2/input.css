@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1130px];
+  }
+  .blocks {
+    @apply w-[360px] h-[360px] pt-[95px] flex justify-center;
+  }
+  .blocks2 {
+    @apply w-[480px] h-[480px] pt-[126px] flex justify-center;
+  }
+  .bg-strawberry {
+    background-image: url('../img/joanna-kosinska-340748.svg');
+  }
+}
